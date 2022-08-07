@@ -1,0 +1,64 @@
+
+.todo-container{
+  background-color:white;
+  color: black;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  font-size: large;
+  margin-block: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input[type='checkbox']{
+  width: 20px;
+  height: 18px;
+}
+span{
+  padding-left: 10px;
+}
+li p{
+  visibility: hidden;
+  margin-left: 20px;
+  cursor: pointer;
+}
+li:hover p{
+  visibility: visible;
+}
+
+li:hover{
+  background-color: #222;
+  color: white;
+}
+
+input[type='text']{
+  color: black;
+  font-size: large;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button[type='submit']{
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.checked+span{
+  text-decoration: line-through;
+  color: red;
+}
+
+p{
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: red;
+}
+
+
