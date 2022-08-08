@@ -56,7 +56,7 @@ class Todolist extends Component{
         const toDoList = this.state.toDoList
         return(
             <React.Fragment>
-                
+                <h1>ToDo List</h1>
                     <form onSubmit={this.handleSubmit}>
                         <div className="todo-container">
                             <ul>
