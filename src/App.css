@@ -77,3 +77,12 @@ p{
 }
 
 
+.error{
+  visibility: hidden;
+}
+
+.no-error{
+  color: red;
+}
+
+
