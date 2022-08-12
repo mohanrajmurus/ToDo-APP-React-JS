@@ -2,7 +2,7 @@
   "name": "todoapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mohanrajmurus.github.io",
+  "homepage": "https://mohanrajmurus.github.io/ToDo-APP-React-JS",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
